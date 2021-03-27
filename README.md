@@ -4,7 +4,10 @@ This project was implemented using PHP and jQuery.
 It demonstrates how to use the Model-View-Controller Framework in PHP.
 
 # How to run:
-Create a database named test and import test.sql file.
+1) Create a database named test and import test.sql file.
+2) Download XAMPP, open Apache and MySQL through the XAMPP control panel
+3) Clone the repository in a new folder which will be located in xampp/htdocs/ .
+4) Add this url to your browser: localhost/{folderName} .
 
 # How it looks:
 
