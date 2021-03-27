@@ -1,0 +1,154 @@
+body {
+font-size: 14px;
+}
+.no-calls {
+text-align: center;
+font-size: 22px;
+color: #868080;
+margin: 100px auto;
+}
+.webrtc-outgoing-calls{
+display: inline-flex;
+width: 100%;
+padding: 10px 5px;
+background: dimgrey;
+z-index: 9999;
+position: fixed;
+}
+input#number-to-call {
+width: 180px;
+height: 38px;
+font-size: 16px;
+border: 2px solid #9d9a9a;
+font-weight: bold;
+border-radius: 20px;
+}
+#hold-call{
+display:none;
+}
+button#terminate-call, button#make-call, button#hold-call {
+width: auto;
+height:38px;
+margin-left: 5px;
+}
+.outgoing-progress {
+display: none; 
+margin: auto 10px;
+}
+.outgoing-progress p {
+width: 160px;
+color: #fff;
+font-weight: bold;
+margin: auto;
+font-size: 18px;
+}
+.show-professionals-forwarding{
+cursor:pointer;
+position: fixed;
+text-align: center;
+right: 0;
+bottom: 0;
+padding: 3px;
+background: #ffffff;
+width: 100%;
+border-top: 1px solid #535353;
+}
+.professionals-forwarding{
+display: none;
+position: fixed;
+right: 0;
+bottom: 0;
+padding: 20px;
+background: #ffffff;
+width: 100%;
+border-top: 1px solid #535353;
+}
+.professionals-forwarding label{
+margin-bottom: 3px;
+}
+input.form-control.professional-forwarding {
+border-radius: 0px;
+height: 45px;
+background: #e3e3e3;
+position: relative;
+}
+.close-professionals-forwarding{
+position: absolute;
+top: 5px;
+right: 5px;
+cursor: pointer;
+}
+input.form-control.professional-forwarding:focus{
+border-color:transparent;
+box-shadow: none;
+}
+.professional-forwarding-results {
+display: none;
+position: fixed;
+height: 263px;
+overflow: auto;
+top: 55%;
+left: 0;
+right: 0;
+background: #f8f8f8;
+}
+.professional-forwarding-results ul{
+list-style: none;
+padding: 0;
+}
+.professional-forwarding-results ul li {
+padding: 5px;
+border-bottom: 1px solid #a2a2a2;
+font-size: 16px;
+transition: all 0.2s ease;
+}
+.professional-forwarding-results ul li:hover {
+background: #91b8bd;
+}
+.action-call-buttons{
+float: right;
+}
+.action-call-buttons button {
+margin: 0px 5px;
+height: 25px;
+font-size: 14px;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+padding: 0 10px;
+color: #fff;
+}
+.action-call-buttons button:nth-child(1){
+background: #338733;
+}
+.action-call-buttons button:nth-child(2){
+background: #727522;
+}
+.dialpad{
+display: none;
+}
+.webrtc-dialpad {
+position: fixed;
+width: 100%;
+display: flex;
+z-index: 10000;
+margin-top: 60px;
+min-height: 41px;
+}
+.webrtc-dialpad span{
+cursor:pointer;
+flex:1;
+text-align: center;
+background: #fff;
+font-size: 18px;
+padding: 7px;
+font-weight: 500;
+transition: all 0.2s ease;
+}
+.webrtc-dialpad span:hover{
+background: #5eb4cb;
+color: #fff;
+}
+.webrtc-dialpad span:not(:last-child){
+border-right: 1px solid #5eb4cb;
+}

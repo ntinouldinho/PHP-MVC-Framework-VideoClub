@@ -1,0 +1,508 @@
+            button.ivr-status {
+                margin-right: 10px;
+            }
+
+            label {
+                margin: 0rem;
+            }
+
+            .navbar-brand.mr-1 img {
+                max-width: 220px;
+            }
+
+            .sidebar .nav-item .nav-link {
+                border-bottom: 1px solid #646464;
+            }
+
+            footer.sticky-footer {
+                height: 30px;
+            }
+
+            @media (min-width: 768px) {
+                ul.navbar-nav {
+                    margin-left: auto !important;
+                }
+                ul.navbar-nav {
+                    margin-right: 0 !important;
+                }
+                .form-group>label {
+                    font-weight: 600;
+                    margin-bottom: .1rem;
+                }
+                .card {
+                    border: none;
+                }
+                .form-group.password {
+                    position: relative;
+                }
+                span#toggle-password,
+                span#edit-toggle-password {
+                    position: absolute;
+                    top: 32px;
+                    right: 10px;
+                    cursor: pointer;
+                }
+                button.store-customer,
+                button.edit-customer,
+                button.store-partner,
+                button.edit-partner,
+                button.store-material,
+                button.edit-material,
+                button.create-offer {
+                    max-width: 260px;
+                    margin: auto;
+                    font-size: 1.3em;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                }
+                .saved-customer-logs {
+                    max-height: 300px;
+                    overflow: auto;
+                }
+                textarea.form-control.log-textarea {
+                    border: none;
+                    background: #f7f7f7;
+                }
+                .calls-actions {
+                    margin: 0px auto 20px;
+                }
+                span.inbound-call {
+                    color: green;
+                    font-weight: 600;
+                }
+                span.outbound-call {
+                    color: orange;
+                    font-weight: 600;
+                }
+                #dataTable-calls th,
+                #dataTable-calls td {
+                    padding: .6rem;
+                }
+                #dataTable-calls tbody tr td:nth-child(6),
+                #dataTable-calls tbody tr td:nth-child(7) {
+                    font-weight: 600;
+                    text-align: center;
+                }
+                .recording-overlay {
+                    display: none;
+                    position: fixed;
+                    width: 100%;
+                    height: 100%;
+                    background: #01010185;
+                    z-index: 10;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                }
+                .recording-inner {
+                    position: absolute;
+                    z-index: 9999;
+                    top: 45%;
+                    left: 30%;
+                    right: 30%;
+                }
+                span.recording-overlay-dismiss {
+                    position: absolute;
+                    top: 12px;
+                    right: 25px;
+                    width: 20px;
+                    height: 20px;
+                    color: aliceblue;
+                    font-size: xx-large;
+                    cursor: pointer;
+                }
+                .calls-btn {
+                    text-align: center;
+                    margin-top: 1rem;
+                }
+                .nav-link.span {
+                    color: #cfcfcf !important;
+                }
+                .nav-link.span.department {
+                    font-weight: 600;
+                }
+                .card.user-card {
+                    background: #8dbba2;
+                }
+                .sidebar .dropdown-menu {
+                    background-color: #212529;
+                }
+                .sidebar .dropdown-menu .dropdown-item {
+                    color: #999999;
+                }
+                .calls-stats-datepicker {
+                    position: absolute;
+                    right: 0;
+                    top: 10px;
+                }
+                .form-control {
+                    border-radius: 0px;
+                    border: 2px solid #ebebeb;
+                    height: 50px;
+                    font-size: 1.25em;
+                }
+                .form-control:focus {
+                    box-shadow: none;
+                    -webkit-box-shadow: none;
+                }
+                input.form-control.search-control {
+                    height: 40px;
+                    padding: 6px 30px 6px 10px;
+                    font-size: 14px;
+                    border-radius: 4px;
+                    border: none;
+                    width: 340px;
+                }
+                i.search-icon {
+                    position: absolute;
+                    top: 13px;
+                    right: 10px;
+                    color: #9a9a9a;
+                }
+                div.customers-search-results {
+                    display: none;
+                    width: 440px;
+                    position: absolute;
+                    max-height: 220px;
+                    overflow: auto;
+                    background: #ffffff;
+                    border: 2px solid #cccccc;
+                    z-index: 1;
+                    border-top: none;
+                    top: 98%;
+                }
+                div.customers-search-results ol {
+                    padding-left: 0;
+                    list-style: none;
+                }
+                div.customers-search-results ol li {
+                    border-bottom: 1px solid lightgrey;
+                    padding: 6px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                }
+                div.customers-search-results ol li:hover {
+                    background: #e7e7e7;
+                }
+                .user-card a.user-actions {
+                    transition: all 0.25s ease;
+                }
+                .user-card a.user-actions:hover {
+                    background: #4f7460;
+                }
+                .simple-call {
+                    position: absolute;
+                    right: 10px;
+                    top: 34px;
+                    background: green;
+                    color: #fff;
+                    padding: 5px 15px;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: all .25s ease;
+                }
+                .simple-call:hover {
+                    color: green;
+                    background: #fff;
+                    box-shadow: inset 0px 0px 0px 2px green;
+                }
+                .dropdown-item:hover,
+                .dropdown-item:focus {
+                    background-color: transparent;
+                    color: #333;
+                }
+                /* The Modal (background) */
+                .modal {
+                    display: none;
+                    /* Hidden by default */
+                    position: fixed;
+                    /* Stay in place */
+                    z-index: 1;
+                    /* Sit on top */
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    /* Full width */
+                    height: 100%;
+                    /* Full height */
+                    overflow: auto;
+                    /* Enable scroll if needed */
+                    background-color: rgb(0, 0, 0);
+                    /* Fallback color */
+                    background-color: rgba(0, 0, 0, 0.4);
+                    /* Black w/ opacity */
+                }
+                /* Modal Content/Box */
+                .modal-content {
+                    background-color: #fefefe;
+                    margin: 15% auto;
+                    /* 15% from the top and centered */
+                    padding: 20px;
+                    border: 1px solid #888;
+                    width: 50%;
+                    /* Could be more or less, depending on screen size */
+                }
+                /* The Close Button */
+                .close {
+                    color: #aaa;
+                    float: right;
+                    font-size: 28px;
+                    font-weight: bold;
+                }
+                .close:hover,
+                .close:focus {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+
+
+                .option_offer_1,
+                .option_offer_2{
+                    max-width: 40%;
+                    align-content: center;
+                    margin: auto;
+
+                }
+
+                .option_offer_1:focus,
+                .option_offer_2:focus{
+                    background-color: #306c30
+                }
+
+
+                .divider_custom{
+                    background-color: #212529;
+
+                    max-width: 100%;
+                    margin: auto;
+                    margin-top: 32px;
+                    height: 4px;
+                    border-radius: 25px;
+                }
+
+
+                .basic_div{
+                    display: none;
+                    max-width: 90%;
+                    margin: auto;
+                    border-radius: 25px;
+                    margin-top: 16px;
+                }
+
+
+                .final-offer-btn{
+                    display: inline;
+                    color: #fff;
+                    background-color: #FF7F02;
+                    border-color:  #FF7F02;
+                    margin: auto;
+
+                }
+
+                .printBtn{
+                    width: 110px;
+                    height: 53px;
+                    background-color: crimson;
+                    font-size: 1.3em;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    margin-left: 100px;
+                    margin-top:50px;
+                    margin-right: auto;
+                    display:block;
+                }
+
+                /* .final-offer-btn:hover{
+
+                    background-color: #FF7F02;
+
+                }
+
+                .final-offer-btn:active{
+
+                    background-color: #FF7F02;
+
+                }
+
+                .final-offer-btn:focus{
+
+                    background-color: #FF7F02;
+
+                } */
+
+                .left-arrow{
+                    display: inline;
+                    font-size: 50px;
+                    color: #ff0000;
+                }
+
+                .text_h1{
+                    display: block;
+                    text-align: center;
+
+                    font-size: 30px;
+
+                }
+
+
+                .aabbcc{
+                    margin-top: 2%;
+                    display: none;
+                }
+
+
+                select.form-control.printBtntt{
+                    height: 142px;
+                    font-size: 1em;
+                }
+
+                .text_center{
+                    text-align: center;
+                }
+
+                .baaaa{
+                    cursor: pointer;
+
+                }
+
+                .top_form_div{
+                    padding: 16px;
+                    box-shadow: 1px 1px 7px 0px;
+                    border-radius: 8px;
+                }
+                .reverse_offer{
+                    cursor: pointer;
+                }
+
+                div.divider_hor{
+                    background-color: #40af90;
+
+                    position: absolute;
+                    height: 100%;
+                    width: 4px;
+                    left: 0px;
+                    bottom: 0px;
+                  }
+
+                  div.kk{
+                    /* display: block; */
+                    padding: 8px;
+                    background: #fafafa;
+                    box-shadow: 0px 0px 3px 0px;
+                    border-radius: 4px 4px 4px 4px;
+                    width : 40%;
+                  }
+
+                  div.kk2{
+                    /* display: block; */
+                    margin-left:auto;
+                    margin-top:16px;
+                    padding: 8px;
+                    background: #EDFDED;
+                    box-shadow: 0px 0px 3px 0px;
+                    border-radius: 4px 4px 4px 4px;
+                    max-width: 300px;
+                  }
+
+                  .buttonSpecial{
+                    border: none;
+                    color: white;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                  }
+
+
+                /* search box CSS */
+                #myInput, #customerInput, #partnerInput {
+                    background-image: url("icons/close-offer/search.png");
+                    background-position: 95% 13px;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    font-size: 16px;
+                    padding: 12px 40px 12px 20px;
+                    border: 1px solid #ddd;
+                    background-size: 8%;
+                }
+
+                #customerInputCust {
+                    background-image: url("icons/close-offer/manager.png");
+                    background-position: 95% 8px;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    font-size: 16px;
+                    padding: 12px 40px 12px 20px;
+                    border: 1px solid #ddd;
+                    background-size: 6%;
+                }
+
+                #customerInputCoop {
+                    background-image: url("icons/close-offer/engineer.png");
+                    background-position: 95% 8px;
+                    background-repeat: no-repeat;
+                    width: 100%;
+                    font-size: 16px;
+                    padding: 12px 40px 12px 20px;
+                    border: 1px solid #ddd;
+                    background-size: 6%;
+                }
+
+
+                #myUL, #myUL1, #myUL2 {
+                    list-style-type: none;
+                    padding: 0;
+                    margin: 0;
+                    position: absolute;
+                    z-index: 1;
+                }
+
+                #myUL li span, #myUL1 li span, #myUL2 li span {
+                    border: 1px solid #ddd;
+                    margin-top: -1px; /* Prevent double borders */
+                    background-color: #f6f6f6;
+                    padding: 12px;
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: black;
+                    display: block;
+                    cursor : pointer;
+                }
+
+                #myUL li span:hover:not(.header), #myUL1 li span:hover:not(.header), #myUL2 li span:hover:not(.header) {
+                    background-color: #eee;
+                }
+
+                #myUL li, #myUL1 li, #myUL2 li{
+                    display: none;
+                }
+
+                .outera{
+                    max-width : 300px;
+                    min-width : 100px;
+                    /* margin: 36px 70% 8px 0px; */
+                    margin-bottom: 8px;
+                    box-shadow : 0px 0px 5px 0px #ccc;
+                    position: relative;
+                }
+
+
+                .scroll{
+                    height: 200px;
+                    overflow: auto;
+                    display: none;
+                }
+
+                .zebra{
+                    width: 50px;
+
+                }
+
+
+                .monkey{
+                    display:flex;
+                }
+            }
